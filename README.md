@@ -42,24 +42,29 @@ ng serve
 Now, open your browser and visit `http://localhost:4200/` to see the app running.
 
 ---
-
-## 🔧 Project Structure
+## Project Structure
 ```
-angular-tweet-app/
-│-- src/
-│   ├── app/
-│   │   ├── components/
-│   │   ├── services/
-│   │   ├── models/
-│   │   ├── app.module.ts
+project/
+│── .angular/        # Angular build cache
+│── .vscode/         # VS Code settings
+│── node_modules/    # Project dependencies
+│── public/          # Static assets
+│── src/             # Source files
+│   ├── app/         # Main application logic
 │   │   ├── app.component.ts
-│   ├── assets/
-│   ├── styles.css
-│   ├── main.ts
-│-- angular.json
-│-- package.json
-│-- README.md
+│   │   ├── app.routes.ts
+│   │   ├── app.config.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.css
+│   │   ├── main.ts
+│   ├── index.html   # Root HTML file
+│   ├── styles.css   # Global styles
+│── package.json     # Project metadata
+│── angular.json     # Angular configuration
+│── tsconfig.json    # TypeScript configuration
+│── README.md        # Project documentation
 ```
+
 
 ---
 
@@ -92,7 +97,7 @@ If you'd like to contribute, feel free to fork the repository and submit a pull 
 ## 📬 Contact
 For any questions or suggestions, feel free to reach out:
 - **Email**: kanchipamuteja26@gmail.com
-- **GitHub**: [YourGitHubProfile](https://github.com/Tejahaha)
+- **GitHub**: [Tejahaha](https://github.com/Tejahaha)
 
 ---
 

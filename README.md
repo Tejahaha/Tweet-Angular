@@ -1,59 +1,100 @@
-# Project
+# Angular Tweet App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+## 📌 Introduction
+The **Angular Tweet App** is a modern, lightweight web application that allows users to create, read, update, and delete (CRUD) short messages (tweets). The application uses **Session Storage** to temporarily store tweets, making it fast and efficient. This project is built using **Angular** and follows best practices for component-based architecture.
 
-## Development server
+## 📝 Project Overview
+- Users can **add, edit, delete, and view tweets**.
+- Tweets are stored in **Session Storage** (meaning they persist only during the session).
+- A **modern, chat-style interface** for an intuitive user experience.
+- Built with **Angular framework**, ensuring scalability and maintainability.
+- Uses **TypeScript** and **Bootstrap/Tailwind CSS** for styling.
 
-To start a local development server, run:
+---
 
-```bash
+## 🚀 Features
+- **Tweet Management**: Create, Edit, and Delete tweets seamlessly.
+- **Session-Based Storage**: Stores tweets temporarily using browser's session storage.
+- **Responsive UI**: Fully responsive for mobile and desktop.
+- **Modern Chat UI**: Styled to look like a sleek chat application.
+
+---
+
+## 🏗️ Installation & Setup
+
+Follow these steps to clone and run the project on your local machine:
+
+### 2️⃣ Clone the Repository
+```sh
+git clone https://github.com/Tejahaha/Tweet-Angular.git
+cd Tweet-Angular
+```
+
+### 3️⃣ Install Dependencies
+```sh
+npm install
+```
+
+### 4️⃣ Run the Development Server
+```sh
 ng serve
 ```
+Now, open your browser and visit `http://localhost:4200/` to see the app running.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+## 🔧 Project Structure
+```
+angular-tweet-app/
+│-- src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── services/
+│   │   ├── models/
+│   │   ├── app.module.ts
+│   │   ├── app.component.ts
+│   ├── assets/
+│   ├── styles.css
+│   ├── main.ts
+│-- angular.json
+│-- package.json
+│-- README.md
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🛠️ Available Scripts
+| Command | Description |
+|---------|-------------|
+| `ng serve` | Run the development server |
+| `ng build` | Build the application for production |
+| `ng test` | Run unit tests |
+| `ng lint` | Check for linting errors |
 
-## Building
+---
 
-To build the project run:
+## 📜 License
+This project is **open-source** and available under the [MIT License](LICENSE).
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🤝 Contributing
+If you'd like to contribute, feel free to fork the repository and submit a pull request!
 
-## Running unit tests
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature-branch`)
+3. **Commit your changes** (`git commit -m "Add new feature"`)
+4. **Push to your branch** (`git push origin feature-branch`)
+5. **Create a pull request**
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 📬 Contact
+For any questions or suggestions, feel free to reach out:
+- **Email**: kanchipamuteja26@gmail.com
+- **GitHub**: [YourGitHubProfile](https://github.com/Tejahaha)
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+Enjoy coding! 🚀
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
